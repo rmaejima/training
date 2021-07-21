@@ -37,7 +37,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
   static const List<Widget> _widgetOptions = <Widget>[
     Level1(Button.values),
     Level2(Button.values),
-    Level3(),
+    Level3(Button.values),
   ];
 
   void _onItemTapped(int index) {
